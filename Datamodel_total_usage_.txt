@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "_doc": {
+      "properties": {
+        "cpu_percent": {
+          "type": "float"
+        },
+        "memory_percent": {
+          "type": "float"
+        },
+        "timestamp1": {
+          "type": "date"
+        }
+      }
+    }
+  }
+}
