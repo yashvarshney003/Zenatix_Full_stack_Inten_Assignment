@@ -1,0 +1,27 @@
+{
+  "mappings": {
+    "_doc": {
+      "properties": {
+        "cpu_percent": {
+          "type": "float"
+        },
+        "process_name": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "space": {
+          "type": "float"
+        },
+        "timestamp1": {
+          "type": "date"
+        }
+      }
+    }
+  }
+}
+
