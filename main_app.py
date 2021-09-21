@@ -13,12 +13,12 @@ def processes():
     memory_percent = 0
     l = dict(psutil.virtual_memory()._asdict())
     toatl_space  = l ['total']
-    cpu_percent= psutil.cpu_percent()
-    memory_percent= psutil.virtual_memory().percent
-    es.index(index="total_usage_",body={"timestamp1":datetime.now(timezone.utc),"cpu_percent":cpu_percent,"memory_percent":memory_percent})
+    cpu_percent= psutil.cpu_percent()  #Total_cpu_percent by all PID's
+    memory_percent= psutil.virtual_memory().percent # Total mempory usage by processes.
+    es.index(index="total_usage_",body={"timestamp1":datetime.now(timezone.utc),"cpu_percent":cpu_percent,"memory_percent":memory_percent}) #sending data to Elastic Search.
 
 
-
+    # Now we iterate all process and gather information and send to elastic search
     
     for proc in psutil.process_iter():
        
