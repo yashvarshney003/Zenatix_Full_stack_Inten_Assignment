@@ -1,0 +1,288 @@
+{
+  "id": "FnZ5cEt6eHZfUVF1VHJYa0ZtSURaU0EdTk1mTHJUMTNRY1drTzd1Y0d4eU1OUToxODMyOTQ=",
+  "rawResponse": {
+    "took": 3322,
+    "timed_out": false,
+    "_shards": {
+      "total": 1,
+      "successful": 1,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 9,
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "ppp_",
+          "_type": "_doc",
+          "_id": "0",
+          "_version": 122,
+          "_score": null,
+          "fields": {
+            "timestamp1": [
+              "2021-09-22T15:29:13.085Z"
+            ],
+            "process_name.keyword": [
+              "System Idle Process"
+            ],
+            "process_name": [
+              "System Idle Process"
+            ],
+            "space": [
+              0.00072586746
+            ],
+            "cpu_percent": [
+              743
+            ]
+          },
+          "sort": [
+            1632324553085
+          ]
+        },
+        {
+          "_index": "ppp_",
+          "_type": "_doc",
+          "_id": "18376",
+          "_version": 88,
+          "_score": null,
+          "fields": {
+            "timestamp1": [
+              "2021-09-22T15:29:11.970Z"
+            ],
+            "process_name.keyword": [
+              "Code.exe"
+            ],
+            "process_name": [
+              "Code.exe"
+            ],
+            "space": [
+              1.6699791
+            ],
+            "cpu_percent": [
+              5.1
+            ]
+          },
+          "sort": [
+            1632324551970
+          ]
+        },
+        {
+          "_index": "ppp_",
+          "_type": "_doc",
+          "_id": "16404",
+          "_version": 88,
+          "_score": null,
+          "fields": {
+            "timestamp1": [
+              "2021-09-22T15:29:08.923Z"
+            ],
+            "process_name.keyword": [
+              "chrome.exe"
+            ],
+            "process_name": [
+              "chrome.exe"
+            ],
+            "space": [
+              4.145429
+            ],
+            "cpu_percent": [
+              3.4
+            ]
+          },
+          "sort": [
+            1632324548923
+          ]
+        },
+        {
+          "_index": "ppp_",
+          "_type": "_doc",
+          "_id": "16280",
+          "_version": 88,
+          "_score": null,
+          "fields": {
+            "timestamp1": [
+              "2021-09-22T15:29:08.776Z"
+            ],
+            "process_name.keyword": [
+              "chrome.exe"
+            ],
+            "process_name": [
+              "chrome.exe"
+            ],
+            "space": [
+              4.7241387
+            ],
+            "cpu_percent": [
+              0
+            ]
+          },
+          "sort": [
+            1632324548776
+          ]
+        },
+        {
+          "_index": "ppp_",
+          "_type": "_doc",
+          "_id": "16272",
+          "_version": 88,
+          "_score": null,
+          "fields": {
+            "timestamp1": [
+              "2021-09-22T15:29:08.569Z"
+            ],
+            "process_name.keyword": [
+              "node.exe"
+            ],
+            "process_name": [
+              "node.exe"
+            ],
+            "space": [
+              3.5066657
+            ],
+            "cpu_percent": [
+              0.8
+            ]
+          },
+          "sort": [
+            1632324548569
+          ]
+        },
+        {
+          "_index": "ppp_",
+          "_type": "_doc",
+          "_id": "15628",
+          "_version": 88,
+          "_score": null,
+          "fields": {
+            "timestamp1": [
+              "2021-09-22T15:29:07.827Z"
+            ],
+            "process_name.keyword": [
+              "chrome.exe"
+            ],
+            "process_name": [
+              "chrome.exe"
+            ],
+            "space": [
+              1.645348
+            ],
+            "cpu_percent": [
+              7
+            ]
+          },
+          "sort": [
+            1632324547827
+          ]
+        },
+        {
+          "_index": "ppp_",
+          "_type": "_doc",
+          "_id": "11812",
+          "_version": 88,
+          "_score": null,
+          "fields": {
+            "timestamp1": [
+              "2021-09-22T15:29:01.657Z"
+            ],
+            "process_name.keyword": [
+              "SearchApp.exe"
+            ],
+            "process_name": [
+              "SearchApp.exe"
+            ],
+            "space": [
+              3.1871388
+            ],
+            "cpu_percent": [
+              0
+            ]
+          },
+          "sort": [
+            1632324541657
+          ]
+        },
+        {
+          "_index": "ppp_",
+          "_type": "_doc",
+          "_id": "11204",
+          "_version": 88,
+          "_score": null,
+          "fields": {
+            "timestamp1": [
+              "2021-09-22T15:29:00.769Z"
+            ],
+            "process_name.keyword": [
+              "java.exe"
+            ],
+            "process_name": [
+              "java.exe"
+            ],
+            "space": [
+              56.730556
+            ],
+            "cpu_percent": [
+              5.6
+            ]
+          },
+          "sort": [
+            1632324540769
+          ]
+        },
+        {
+          "_index": "ppp_",
+          "_type": "_doc",
+          "_id": "4520",
+          "_version": 88,
+          "_score": null,
+          "fields": {
+            "timestamp1": [
+              "2021-09-22T15:28:34.515Z"
+            ],
+            "process_name.keyword": [
+              "MsMpEng.exe"
+            ],
+            "process_name": [
+              "MsMpEng.exe"
+            ],
+            "space": [
+              7.1280665
+            ],
+            "cpu_percent": [
+              8
+            ]
+          },
+          "sort": [
+            1632324514515
+          ]
+        }
+      ]
+    },
+    "aggregations": {
+      "2": {
+        "buckets": [
+          {
+            "key_as_string": "2021-09-22T20:58:30.000+05:30",
+            "key": 1632324510000,
+            "doc_count": 1
+          },
+          {
+            "key_as_string": "2021-09-22T20:59:00.000+05:30",
+            "key": 1632324540000,
+            "doc_count": 6
+          },
+          {
+            "key_as_string": "2021-09-22T20:59:10.000+05:30",
+            "key": 1632324550000,
+            "doc_count": 2
+          }
+        ]
+      }
+    }
+  },
+  "isPartial": false,
+  "isRunning": false,
+  "total": 1,
+  "loaded": 1,
+  "isRestored": true
+}
