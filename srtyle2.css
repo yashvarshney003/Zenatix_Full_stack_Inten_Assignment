@@ -70,9 +70,10 @@ justify-content: space-around;
 
 
 }
+
 .description{
-  height:100%;
-  width:70%;
+  height:90%;
+  width:100%;
   resize: none;
    outline:none;
   border:none;
@@ -89,8 +90,59 @@ justify-content: space-around;
   justify-content: space-around;
 }
 .p-color {
-  height:20%;
-  width:3em;
+  height:15%;
+  width:2em;
   border-radius: 5px;
    
+}
+.task-area
+{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: start;
+  /* justify-content: space-around; */
+}
+
+.task{
+  height:16rem;
+  width:16rem;
+  background-color: aquamarine;
+  display:flex;
+  flex-direction:column;
+float:left;
+margin-left: 1rem;
+margin-top:1rem;
+}
+.priority-color{
+  height:10%;
+  width:100%;
+  background-color:burlywood;
+}
+.task-index{
+  height:10%;
+  width:100%;
+  background-color:crimson;
+
+}
+.task-description{
+  height:80%;
+  width:100%;
+  background-color: darkgreen;
+
+}
+.description-and-create
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width:70%;
+
+}
+.create{
+  width:100%;
+  height:10%;
+}
+.border
+{
+  border: 5px solid rgb(180, 169, 169);
 }
